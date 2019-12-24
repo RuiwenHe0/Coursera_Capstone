@@ -1,0 +1,65 @@
+By now, you've probably heard of location-based services such as Facebook Places, foursquare, and Gowalla. For the most part, these services provide a way for individuals to report where they are in a social way. To be honest, as currently implemented, these services haven't provided much value up until now, unless you care that Mary checked in at the vet or John is at the pub. While you could argue that there is some implicit value in knowing which businesses your friends frequent, the more common response is probably "big whoop." You might rightly wonder if this is taking social networking too far when we have to know the whereabouts of one another 24/7.
+
+However, consider the value if you could learn about the world around you based on where you are using the GPS capability in your smartphone. Imagine for a minute holding up your phone and having relevant content delivered to you based on your physical location at any given moment. Instead of just manually checking in about your location, you could get information delivered in real time about where to shop, eat, and play based on where you are. That's a very different location dynamic than you get from simply communicating "I'm here."
+
+Now imagine as a business or content provider, you could deliver meaningful content on-the-fly based on where a person is, not in an intrusive way, but simply as a matter of course. You are in front of Restaurant X. Tap to see a menu. Tap to see reviews. Tap to see if your friends have been here and what they think of the place. And the restaurant owner might even offer you an incentive to come inside.
+
+Suddenly, location becomes a powerful driver of meaningful content delivery presented to a user automatically based on where he or she is at any given moment. And it's not annoying anymore. It's potent and useful.
+
+Before we get too excited, it's worth noting that a Pew study released last November found that only 4% of Americans were using location-based services, but these are clearly early days for this technology. As developers grow more creative, many more people are bound to come on board as we see more sophisticated uses.
+
+WHERE ARE WE?
+Clearly, there are several technologies coming together that are making this location-content connection possible. In particular, we now have smartphones equipped with GPS and smart mapping technology in our pockets and purses. These technologies provide a way for the apps on the phone to know where we are in the world at any given moment, and once the phone has that information, we have a starting point to link that location to meaningful content.
+
+Matthew Link, VP at MapHook, a mobile application designed to help you find and track information based on location, believes that the technologies that link content and location have been coming together for some time. "It's a natural path given the evolution and fusing of GPS and wireless technologies. Mobile devices have become smarter, can manage and store more applications and data, and have increasing broadband access," he says.
+
+Akash Agarwal, SVP of platform products and business development at LocationLabs, a company that develops location-based APIs, agrees that there is a strong connection between mobile and location (and by extension, content). "Location is the one piece that is unique to mobile and many more interesting use cases and applications will emerge. From new ways of engagement for brands and businesses to new types of enterprise applications to entertainment apps. They all need location and the context around the location," he says.
+
+18n1.jpgMapHook provides a way for users to link location and content. In this iPhone app, you can see the current location of "the hook" on a map.
+
+WHAT IS THIS PLACE?
+The question becomes how do we start to make use of that location information in more interesting ways than declaring to the world where we are. One way is to make use of location metadata. Once the location is declared as a piece of metadata, applications can begin to use it and programmatically link it to other types of relevant content.
+
+Morriss Partee, who is chief experience officer at EverthingCU, a professional association for credit union marketing professionals, and who speaks frequently about every aspect of social networking including location awareness, believes that location will soon be a standard piece of metadata associated with just about all online content.
+
+"Location and mapping and every other sort of web content are merging rapidly," Partee says. He believes that location data will become as common as "date created" is now. He offers photos on the iPhone as an example of how this works. "For several years now, location has automatically been embedded with all photos taken on an iPhone." He explains that when you upload your photos to a service such as Flickr, the location is transferred automatically with the photo (unless the user chooses to keep this information private).
+
+MapHook's Link agrees and says this location-content connection has been developing over this period. "Location-based applications have been growing in functionality for the last two to three years. This is not new to consumers. They are becoming increasingly aware of the potential, so much so that they now want and expect to see and/or generate content relevant to a location" he says.
+
+Content producers and publishers are beginning to take advantage. For instance, Springer, a scientific and technology publisher, has developed a mapping widget using Google's Map API that enables Springer (or anyone else for that matter) to present Springer content and author data on a map. Springer's VP of development, Brian Bishop, says publishers are just beginning to find ways to link location and content (both on the web and on mobile devices) using location metadata as a driver.
+
+"I think you are starting to see publishers take advantage of location-based features more and more as they figure out how to effectively enrich their content with tagged locations and then figure out how to build interesting products around that data," he says.
+
+ARE WE THERE YET?
+When you can programmatically determine location, you can use that information in simple or sophisticated ways. LocationLabs, for instance, has created what it calls geofencing technology. Agarwal explains that by understanding when you cross certain geographical boundaries you are in a place, and by the same token, understanding when you leave those boundaries. He says that Raizlabs has created a way to automate the check-in/checkout process on foursquare using this technology.
+
+"Mayor Maker builds on Foursquare's open API, taking Foursquare a step further, by offering an automatic check-in-and then creating the check-out [automatically]. The app uses Geofencing, a virtual boundary around an area. Mayor Maker's checkout option is particularly compelling, since it captures how long a consumer lingers in a place."
+
+However, this is just building on the "I'm here" notion. What happens when you venture further?
+
+mFoundry built its business on the idea of using location to help banks and merchants reach their customers wherever they are. Drew Sievers, CEO and co-founder at mFoundry, explains how this works. "All of our products leverage location in one way or another. For mobile banking, we use the phone's built-in location systems to help users find bank branches and ATMs. For our retail work with Starbucks, we use the phone's location systems to help users find the nearest Starbucks. Moving forward, we will be adding more location-relevant features around offers and opportunities for both banks and retailers."
+
+This begins to provide more useful information for users. When you connect it to other information it grows increasingly interesting. Take Foodspotting, for example, a service that helps you find food you like wherever you are. Alexa Andrzejewski, Foodspotting's co-founder and CEO, says when you connect this to other services, it increases the power of the information.
+
+"Foodspotting relies on GPS technology built into the iPhone, and soon Android. This is because the location of a user is what makes our sightings valuable data, helping them find the best foods in their area immediately. Additionally, with the current APIs available to integrate with other social networks and services, Foodspotting becomes a richer experience for our users, allowing them to check-in to Foursquare, tweet about their sightings and update their status on Facebook, all through the same interface," she explains.
+
+But perhaps the most sophisticated approach of the bunch is goHow, an application built by SDL and SapientNitro for Denver International Airport, which uses location technologies to provide you with information, real-time updates, and special offers from merchants as you move through the airport.
+
+This provides a way for merchants to target promotions based on gate location and time of day and even offer real-time user merchant ratings and reviews. Robert Carroll, CMO of SDL's Web Content Management Solutions in North America, says there is real value in this approach. He offers this example: "If you are a business traveler (road-warrior) in the airport during a delay or an extended layover, possibly a neck massage, or a meal with free wireless may be exactly what you desire. The suggestion of these options at the right time via a mobile medium will help the traveler quickly engage in activities that they desire-whether it be parking, shopping or surfing the web."
+
+19n1.jpgThis application uses the Google Maps API to display information about Springer books and authors on a map.
+
+WHERE ARE WE GOING?
+The location-content connection is already developing in interesting ways as the examples throughout this article have illustrated, but we really are just at the beginnings of how we will use this technology moving forward.
+
+SDL's Carroll sees applying the Denver Airport application in many different settings. "For starters, this type of use-case can be applied to many different scenarios that include every major airport in the world, shopping malls, main streets, public events and so on," he says.
+
+He adds, "Imagine being in your favorite retail area and having relevant offers sent to your phone as you journey near a specific retailer. The 'one-size-fits-all' promotion can now be replaced by the tailored experience. Now take this to the extreme, and supermarkets and big box stores can essentially offer the [special] promotions (such as products on a physical end-cap display) as a virtual mobile end-cap display (promotion)."
+
+MapHook's Link says these concepts will continue to develop. "We expect there will be a lot of fine-tuning in the marketplace. Apps will continue to improve in functionality and their monetizing capability will continue to evolve."
+
+Link believes the underlying technology will continue to improve. "Wireless networks will continue to upgrade their broadband capability enabling more and larger content such as video to be incorporated into various applications. Wireless network technologies and devices (such as 3G and 4G and the iPhone) are becoming more ubiquitous across carrier networks. Thus it will become easier for location-based applications that were once siloed to be more available to more carriers and ultimately more consumers."
+
+There are certainly still many issues and hurdles to work out, perhaps most important being our notion of privacy. There are broad privacy implications when an application can use our location simply as a matter of course without our explicit permission to do so. We will need to find ways to respect user privacy while taking advantage of the ability to offer individualized content based on that location. It's a tricky line to walk and will be part of the location-content discussion moving forward.
+
+We may have a long way to go with this technology, but even today, location capabilities are far more intricate than simple social check-in/checkout services. As the underlying technologies-phones, maps, GPS, networks, and so forth-develop and grow, so will the types of applications, and the link between content and location will grow ever stronger, giving consumers and content providers alike the potential for an individualized content experience based on where you are in the world.
